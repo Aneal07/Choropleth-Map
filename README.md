@@ -3,15 +3,33 @@ FCC - Data Visualization Projects - Visualize Data with a Choropleth Map
 ![Screenshot](map.jpg)
 [Live Demo](https://aneal07.github.io/Choropleth-Map/)
 
-User Stories:
-Title: My choropleth should have a title with a corresponding id="title".
-Description: My choropleth should have a description element with a corresponding id="description".
-Counties: My choropleth should have counties with a corresponding class="county" that represents the data.
-Fill Colours: There should be at least 4 different fill colours used for the counties.
-County Data: My counties should each have data-fips and data-education properties containing their corresponding fips and education values.
-County Completeness: My choropleth should have a county for each provided data point.
-Matching Data: The counties should have data-fips and data-education values that match the sample data.
-Legend: My choropleth should have a legend with a corresponding id="legend".
-Legend Colours: There should be at least 4 different fill colours used for the legend.
-Tooltip Interaction: I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
-Tooltip Data: My tooltip should have a data-education property that corresponds to the data-education of the active area.
+Preface
+For the fourth and penultimate project necessary to earn the 'Data Visualization Projects' certification @freeCodeCamp, the task is to visualize arbitrary data through a choropleth map, and with the D3.js library.
+
+Design
+The design of the project replicates the structure included for the previous three efforts: a light card on a dark background, a bold header, short description followed with the very visualization.
+
+For reference, a choropleth map just like this one.
+
+User Stories
+For the project to fulfill the testing suite set up by the freeCodeCamp team, the visualization needs to fulfill a few user stories:
+
+ there exist a title, with id="title";
+
+ there exist a description, with id="description;
+
+ the choropleth should display counties with class="county representing the data;
+
+ there should be at least 4 different fill colors;
+
+ counties should have two attributes, data-fips and data-education, relaying information regarding the corresponding data values;
+
+ there exist one county for each data point;
+
+ there exist a legend with id="legend";
+
+ in the legend, there exist at least 4 fill colors;
+
+ upon hovering on each area, a tooltip with id="tooltip" shows additional information;
+
+ the tooltip should have a data-education attribute matching the value of the active data point.
