@@ -6,8 +6,6 @@ FCC - Data Visualization Projects - Visualize Data with a Choropleth Map
 Preface
 For the fourth and penultimate project necessary to earn the 'Data Visualization Projects' certification @freeCodeCamp, the task is to visualize arbitrary data through a choropleth map, and with the D3.js library.
 
-Design
-The design of the project replicates the structure included for the previous three efforts: a light card on a dark background, a bold header, short description followed with the very visualization.
 
 For reference, a choropleth map just like this one.
 
