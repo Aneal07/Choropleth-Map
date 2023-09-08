@@ -3,31 +3,4 @@ FCC - Data Visualization Projects - Visualize Data with a Choropleth Map
 ![Screenshot](map.jpg)
 [Live Demo](https://aneal07.github.io/Choropleth-Map/)
 
-Preface
-For the fourth and penultimate project necessary to earn the 'Data Visualization Projects' certification @freeCodeCamp, the task is to visualize arbitrary data through a choropleth map, and with the D3.js library.
-
-
-For reference, a choropleth map just like this one.
-
-User Stories
-For the project to fulfill the testing suite set up by the freeCodeCamp team, the visualization needs to fulfill a few user stories:
-
- there exist a title, with id="title";
-
- there exist a description, with id="description;
-
- the choropleth should display counties with class="county representing the data;
-
- there should be at least 4 different fill colors;
-
- counties should have two attributes, data-fips and data-education, relaying information regarding the corresponding data values;
-
- there exist one county for each data point;
-
- there exist a legend with id="legend";
-
- in the legend, there exist at least 4 fill colors;
-
- upon hovering on each area, a tooltip with id="tooltip" shows additional information;
-
- the tooltip should have a data-education attribute matching the value of the active data point.
+This is FreeCodeCamp project visualizes different datasets in the form of Choropleth-Map. It's built using D3.js, a powerful library for creating data-driven visualizations.
